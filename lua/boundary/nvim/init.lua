@@ -14,7 +14,8 @@ function M.setup(opts)
   opts = opts or {}
   M.config = {
     boundary_addr = opts.boundary_addr or "",
-    boundary_telescope_script_path = opts.boundary_telescope_script_path or vim.fn.stdpath('config') .. "/plugged/mrjosh/boundary.nvim/scripts/boundary_telescope_cmd",
+    boundary_telescope_script_path = opts.boundary_telescope_script_path or
+    vim.fn.stdpath('config') .. "/plugged/boundary.nvim/scripts/boundary_telescope_cmd.sh",
   }
 end
 
