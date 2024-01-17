@@ -1,1 +1,0 @@
-require('boundary.nvim').setup({})
